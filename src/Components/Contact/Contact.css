@@ -1,0 +1,61 @@
+.c{
+    height: 800px;
+}
+
+.row{
+    padding: 50px;
+    display: flex;
+}
+
+.c-left{
+    flex: 1;
+}
+
+.c-right{
+    flex: 3;
+}
+
+.c-title{
+    margin-bottom: 20px;
+}
+
+.c-left p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.c-right form{
+    padding-left: 80px;
+    float: left;
+    width: 60%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 25px;
+    margin: 15px 0;
+    font-size: 18px;
+    border-radius: 6px;
+    background: #262626;
+    color: whitesmoke;
+    border: 3px solid snow;
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    margin: 15px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: opacity 5s;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+}
+
+

@@ -1,0 +1,97 @@
+.a {
+    height: 80vh;
+    align-items: center;
+    display: flex;
+    background-color:  rgb(228, 224, 224);
+}
+
+.a-left {
+    flex: 1;
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+
+.a-right {
+    flex: 2;
+    height: 400px;
+    justify-content: center;
+    margin-right: 20px;
+    border: none;
+
+}
+
+.a-card {
+    width: 80%;
+    height: 150%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.a-img {
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.a-title{
+    
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.a-desc {
+    padding: 30px 15px;
+    line-height: 35px;
+    align-items: center;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 2px ;
+    border:3px solid black;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    
+}
+
+.a1-btn{
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    margin: 15px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: opacity 5s;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+
+}
+
+
+
+
+.a1-btn:hover {
+    background-color: rgb(166, 248, 166);
+    color: black;
+}
+
+
+
+
+
