@@ -21,7 +21,7 @@ export default function Contact() {
           e.target.reset();
     };
   return (
-    <section id='contact'>
+    <section id='Contact'>
             <div className="container contact__container">
                 <div className="content flex-centered">
                     <span className="s">Get In Touch</span>
